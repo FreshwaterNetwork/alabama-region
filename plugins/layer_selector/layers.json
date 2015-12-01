@@ -1,0 +1,19 @@
+[
+    {
+        "agsSource": {
+            "url": "http://54.241.26.242/arcgis/rest/services/",
+            "folderTitle": "AL_Freshwater",
+            "folders": [
+                {
+                    "url": "http://54.241.26.242/arcgis/rest/services/AL_Freshwater",
+                    "name": "",
+                    "services": [
+                        { "name": "AL_watersheds", "type": "dynamic"},
+						{ "name": "Political_Boundaries", "type": "dynamic"},
+						{ "name": "Healthy_watersheds", "type": "dynamic"}
+                    ]
+                }
+            ]
+        }
+	}
+]

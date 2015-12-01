@@ -1,0 +1,26 @@
+﻿{
+    "gpUrl": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/DrawAndReport/GPServer/getDrawAndReportDataPath",
+    "reports":
+        [
+			{
+				"id": "Watersheds",
+                "name": "Watersheds",
+                "description": "This is an example report with 2 layers: 8 digit and 12 digit hydrologic units.",
+                "layers": [
+                    {   
+                        "display": "Name",									
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/AL_Freshwater/AL_watersheds.MapServer/extracted/v101/alfa.gdb/Published_FC/HUC8Web",
+                        "field": "AreaSqkm",
+                        "units": "Square km"
+                    },
+					{   
+                        "display": "Name",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/AL_Freshwater/AL_watersheds.MapServer/extracted/v101/alfa.gdb/Published_FC/HUC8Web",
+                        "field": "AreaSqkm",
+                        "units": "Square km"
+                    }
+                ]
+            }
+        ]
+}
+
