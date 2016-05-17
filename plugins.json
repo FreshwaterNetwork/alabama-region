@@ -1,0 +1,9 @@
+{
+    "plugins": [
+
+	{
+	    "repo": "feature-compare",
+	    "name": "feature_compare"
+	}
+    ]
+}
