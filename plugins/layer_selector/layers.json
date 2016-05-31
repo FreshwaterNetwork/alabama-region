@@ -1,16 +1,25 @@
 [
     {
         "agsSource": {
-            "url": "http://54.241.26.242/arcgis/rest/services/",
+            "url": "http://54.241.26.242/arcgis/rest/services/AL_Freshwater",
             "folderTitle": "AL_Freshwater",
             "folders": [
                 {
-                    "url": "http://54.241.26.242/arcgis/rest/services/AL_Freshwater",
                     "name": "",
                     "services": [
-                        { "name": "AL_watersheds", "type": "dynamic"},
-						{ "name": "Political_Boundaries", "type": "dynamic"},
-						{ "name": "Healthy_watersheds", "type": "dynamic"}
+											{ "name": "AL_watersheds", "type": "dynamic", "displayName": "Watersheds", "showLayers": [
+															{"id":1, "parentLayerId":-1 },
+															{"id":2, "parentLayerId":-1 },
+												]
+											}
+										]
+									},
+					"name": "",
+                    "services": [
+									{}
+											
+											{ "name": "Political_Boundaries", "type": "dynamic"},
+											{ "name": "Healthy_watersheds", "type": "dynamic"}
                     ]
                 }
             ]
