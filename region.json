@@ -1,5 +1,5 @@
 {
-	
+	"googleAnalyticsPropertyId": "28810260-22",
     "titleMain": { "text": "TNC Alabama", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/alabama/index.htm" },
     "titleDetail": { "text": "Freshwater Assessment", "url": "http://freshwaternetwork.org" },
     "headerLinks": [
@@ -40,3 +40,4 @@
         "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
     }
 }
+
