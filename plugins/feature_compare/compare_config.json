@@ -6,7 +6,7 @@
     "layers": [
         {
             "name": "HUC 8",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/LA_Map_Layers/MapServer/1",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Alabama/AL_Map_Layers/MapServer/1",
             "mapDisplayAttribute": "Name",
             "attrs": [
                 {"name": "Name", "format": "text", "maxLength": 32},
@@ -18,7 +18,7 @@
         },
 		{
             "name": "HUC 12",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/LA_Map_Layers/MapServer/2",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Alabama/AL_Map_Layers/MapServer/2",
             "mapDisplayAttribute": "Name",
             "attrs": [
                 {"name": "Name", "format": "text", "maxLength": 54},
@@ -30,7 +30,7 @@
         },
 		{
             "name": "Watershed Health",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/LA_Map_Layers/MapServer/7",,
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Alabama/AL_Map_Layers/MapServer/7",,
             "mapDisplayAttribute": "FEATUREID",
             "attrs": [
                 {"name": "WatershedHealth", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.1},
