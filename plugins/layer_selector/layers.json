@@ -1,28 +1,42 @@
 [
     {
         "agsSource": {
-            "url": "http://54.241.26.242/arcgis/rest/services/AL_Freshwater",
-            "folderTitle": "AL_Freshwater",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Alabama",
+            "folderTitle": "Alabama Freshwater",
             "folders": [
-                {
+									{
                     "name": "",
                     "services": [
-											{ "name": "AL_watersheds", "type": "dynamic", "displayName": "Watersheds", "showLayers": [
+											{ "name": "AL_Map_Layers", "type": "dynamic", "displayName": "Watersheds", "showLayers": [
 															{"id":1, "parentLayerId":-1 },
-															{"id":2, "parentLayerId":-1 },
+															{"id":2, "parentLayerId":-1 }
 												]
 											}
 										]
 									},
+									{
 					"name": "",
-                    "services": [
-									{}
-											
-											{ "name": "Political_Boundaries", "type": "dynamic"},
-											{ "name": "Healthy_watersheds", "type": "dynamic"}
-                    ]
-                }
-            ]
+                    "services": [		
+											{ "name": "AL_Map_Layers", "type": "dynamic", "displayName": "Political_Boundaries", "showLayers": [
+															{"id":4, "parentLayerId":-1 },
+															{"id":5, "parentLayerId":-1 }
+												]
+											}
+										]
+									},
+									{
+					"name": "",
+					"services": [
+											{ "name": "AL_Map_Layers", "type": "dynamic", "displayName": "EPA Healthy Watersheds Assessments", "showLayers": [
+															{"id":7, "parentLayerId":-1 },
+															{"id":8, "parentLayerId":-1 }
+												]
+											}
+										]
+									}
+						]
+                
+            
         }
 	}
 ]
