@@ -190,8 +190,24 @@
 															{"id":69, "parentLayerId":-1 },
 															{"id":70, "parentLayerId":-1 },
 															{"id":71, "parentLayerId":-1 },
-															{"id":72, "parentLayerId":-1 },
-															{"id":73, "parentLayerId":-1 },
+															{"id":72, "parentLayerId":-1 }
+												]	
+											}
+										]
+									},
+									{
+					"name": "",
+					"services": [
+											{ "name": "AL_Map_Layers_2", "type": "dynamic", "displayName": "Sediment Loading", "showLayers": [
+															{"id":73, "parentLayerId":-1 }
+												]	
+											}
+										]
+									},
+									{
+					"name": "",
+					"services": [
+											{ "name": "AL_Map_Layers_2", "type": "dynamic", "displayName": "Health of Watersheds", "showLayers": [
 															{"id":74, "parentLayerId":-1 }
 												]
 											}
