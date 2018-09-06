@@ -3,10 +3,6 @@
 	
 	{   "repo": "map-tree",
 		"name": "layer_selector"
-	},
-	{
-	    "repo": "feature-compare",
-	    "name": "feature_compare"
 	}
     ]
 }
