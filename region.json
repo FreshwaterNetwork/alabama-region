@@ -1,12 +1,17 @@
 {
 	"googleAnalyticsPropertyId": "28810260-22",
-    "titleMain": { "text": "TNC Alabama", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/alabama/index.htm" },
-    "titleDetail": { "text": "Freshwater Assessment", "url": "http://freshwaternetwork.org" },
+	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
+    "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org/"},
+    "titleDetail": { "text": "Coastal Alabama Restoration Tool (CART)", "url": "http://freshwaternetwork.org" },
     "headerLinks": [
-        { "text": "The Nature Conservancy", "url": "http://nature.org" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
-        { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
+        { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
+        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],
+	 "regionLinks": [
+	{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
+        { "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
+		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
+		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake" }
     ],
     "initialExtent": [
         -88.9,
@@ -26,17 +31,34 @@
     ],
     "pluginOrder": [
         "layer_selector",
-        "measure"
+        "zoom_to",
+        "measure",
+        "legend_display",
+        "full_extent"
     ],
-    
-    "identifyBlacklist":["OBJECTID", "Shape"],
-    
-    "colors": {
+	"print": {
+       "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+       "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+       "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
+    },
+	
+	"colors": {
         "primary": "#457545",
         "secondary": "#81b94d"
     },
-    "print": {
-        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
-    }
+    
+    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+   "identifyEnabled": true,
+     "launchpad": {
+            "title": "",
+            "description": "<p>Welcome to The Mississippi River Basin Project. There's lots of cool stuff to check out here.</p>",
+            "plugins": [
+			    {
+                    "title": "<img src='img/UMR.png' hspace=10>Upper Mississippi Floodplain Explorer",
+                    "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
+                    "pluginName": "umr-floodplain"
+                }
+			]
+	}	
 }
 
