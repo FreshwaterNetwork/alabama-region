@@ -1,8 +1,9 @@
 {
     "plugins": [
 	
-	{   "repo": "map-tree",
+	{   
+		"repo": "regional-planning",
 		"name": "layer_selector"
 	}
-    ]
+  ]
 }
