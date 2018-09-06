@@ -51,12 +51,12 @@
    "identifyEnabled": true,
      "launchpad": {
             "title": "",
-            "description": "<p>Welcome to The Mississippi River Basin Project. There's lots of cool stuff to check out here.</p>",
+            "description": "<p>Welcome to The Coastal Alabama Restoration Tool (CART). There's lots of cool stuff to check out here.</p>",
             "plugins": [
 			    {
-                    "title": "<img src='img/UMR.png' hspace=10>Upper Mississippi Floodplain Explorer",
+                    "title": "<img src='img/UMR.png' hspace=10>CART Base Data",
                     "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
-                    "pluginName": "umr-floodplain"
+                    "pluginName": "regional-planning"
                 }
 			]
 	}	
