@@ -56,7 +56,7 @@
 			    {
                     "title": "<img src='img/UMR.png' hspace=10>CART Base Data",
                     "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
-                    "pluginName": "regional-planning"
+                    "pluginName": "layer_selector"
                 }
 			]
 	}	
