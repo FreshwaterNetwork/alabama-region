@@ -17,90 +17,47 @@
 			   "includeAllLayers": true
 			},
 			{
-			   "name": "EPA Healthy Watersheds Assessments",
-			   "includeAllLayers": true
-			},
-			{
-			   "name": "Major Streams and Rivers"
-			},
-			{
-			   "name": "Wetlands"
-			},
-			{
-			   "name": "Land Cover Classifications"
-			},
-			{
-			   "name": "Protected Lands"
-			},
-			{
-			   "name": "Proposed Acquisition Tracts (2006)"
-			},
-			{
-			   "name": "Bon Secour River, Oyster Bay, Skunk Bayou",
-			   "includeAllLayers": true
-			},
-			{
-			   "name": "D'Olive Creek Potential Projects",
-			   "includeAllLayers": true
-			},
-			{
-			   "name": "Proposed Restoration Priorities (2006)"
-			},
-			{
-			   "name": "Fowl River Proposed Projects (2016)",
-			   "includeAllLayers": true
-			},
-			{
-			   "name": "Three Mile Creek Proposed Projects (2015)",
-			   "includeAllLayers": true
-			},
-			{
-			   "name": "All Habitats (2009)",
-			   "includeAllLayers": true
-			},
-			{
-			   "name": "Priority Habitats (2009)",
-			   "includeAllLayers": true
-			},
-			{
-			   "name": "Mobile Bay SAV",
-			   "includeAllLayers": true
-			},
-			{
-			   "name": "Sediment Loading Rates Study"
-			},
-			{
-			   "name": "Health of Watersheds"
-			},
-			{
-			   "name": "Protected Lands (USGS PADUS)"
-			},
-			{
-			   "name": "OutstandingAlabamWaters"
-			},
-			{
-			   "name": "ADEM Water Quality Survey"
-			},
-			{
-			   "name": "NPDES Permits"
-			},
-			{
-			   "name": "303d Impaired Waters"
-			},
-			{
-			   "name": "Defined TMDLs"
-			},
-			{
-			   "name": "Toxic Release Inventory"
-			},
-			{
-			   "name": "Flood Hazard Zones"
-			},
-			{
 			   "name": "Hydrography Flowlines"
 			},
 			{
-			   "name": "Wetland Habitats (2001/2002)"
+			   "name": "Protected Lands",
+			   "includeAllLayers": true
+			},
+			{
+			   "name": "NWI Wetlands (~2009)"
+			},
+			{
+			   "name": "2001/2002 Habitats"
+			},
+			{
+			   "name": "2005 Habitats",
+			   "includeAllLayers": true
+			},
+			{
+			   "name": "2006 Plan Targets"
+			},
+			{
+			   "name": "2016 Habitats"
+			},
+			{
+			   "name": "Mobile Bay SAV & Oyster Reefs",
+			   "includeAllLayers": true
+			},
+			{
+			   "name": "2018 Strategies",
+			   "includeAllLayers": true
+			},
+			{
+			   "name": "2018 Criteria for Objectives",
+			   "includeAllLayers": true
+			},
+			{
+			   "name": "Proposed Watershed Projects",
+			   "includeAllLayers": true
+			},
+			{
+			   "name": "Anthropogenic Factors",
+			   "includeAllLayers": true
 			}
 
 		]
