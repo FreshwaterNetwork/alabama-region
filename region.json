@@ -14,10 +14,10 @@
 		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake" }
     ],
     "initialExtent": [
-        -90.1,
-        29,
-        -84.3,
-        36
+        -88.9,
+        29.8,
+        -84.6,
+        35.2
     ],
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
