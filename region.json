@@ -15,9 +15,9 @@
     ],
     "initialExtent": [
         -90.1,
-        29.7,
+        31,
         -84.3,
-        35.6
+        37
     ],
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
