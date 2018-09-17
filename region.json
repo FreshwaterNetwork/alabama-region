@@ -54,7 +54,7 @@
             "description": "<p>Welcome to The Coastal Alabama Restoration Tool (CART). There's lots of cool stuff to check out here.</p>",
             "plugins": [
 			    {
-                    "title": "<img src='img/UMR.png' hspace=10>CART Base Data",
+                    "title": "<img src='plugins/regional-planning/icon_sm.png' hspace=10>CART Base Data",
                     "description": "Target watersheds suitable for Conservation, Restoration or Reconnection.",
                     "pluginName": "regional-planning"
                 }
