@@ -34,7 +34,8 @@
 			   "includeAllLayers": true
 			},
 			{
-			   "name": "2006 Plan Targets"
+			   "name": "2006 Plan Targets",
+			   "includeAllLayers": true
 			},
 			{
 			   "name": "2016 Habitats"
