@@ -1,0 +1,406 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20160630</pubdate>
+        <title>MBNEP 2015 Submerged Aquatic Vegetation Fall Polygons</title>
+        <edition>2015</edition>
+        <geoform>atlas</geoform>
+        <pubinfo>
+          <pubplace>8060 Cottage Hill Road, Mobile , Alabama, 36695, US</pubplace>
+          <publish>Barry A. Vittor &amp; Associates, Inc.</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set consists of digital vector data describing the location and species composition of submerged aquatic vegetation in coastal Alabama during fall 2015, including Mississippi Sound, Mobile Bay, Mobile-Tensaw Delta, Little Lagoon, Bay La Launch, Perdido Bay, and their communicating tributaries. The data set includes 1,068 orthophotograph frames and a MrSID mosaic produced from digital aerial imagery acquired on October 10 through 15. SAV was concentrated in upper Mobile Bay and the Mobile-Tensaw Delta, Mississippi Sound, and the Perdido Key area of southeast Baldwin County. Most of the 2015 SAV acreage occurred in the lower Mobile-Tensaw Delta, particularly in the Bridgehead Quadrangle, which contained 63% (4,984.8 ac) of the total 7,923.1 acres mapped. Other areas of substantial acreage included the Mobile Quadrangle (929.2 ac) in the Delta and the Grand Bay Quadrangle (413.5 ac) in Mississippi Sound. 60 percent of the total SAV acreage (4,792.0 acres) was mapped as continuous (&gt;50%) coverage. Overall, there were 1,201.2 fewer acres mapped in fall 2015 than in the 2015 summer survey. The decrease was mostly due to a 920.2-ac decrease in the Bridgehead Quadrangle and a 203.1-ac decrease in the Daphne Quadrangle. In addition to a fall decrease in the overall extent of SAV, there were changes in the proportion of patchy SAV in fall (40%) compared to the summer (22%), particularly in upper Mobile Bay and the lower Delta, Of the 28 habitat categories, most were comprised of mixtures of species occurring in oligohaline systems of the study area.</abstract>
+      <purpose>The intended use of this data set is to provide an assessment of the status and trends of the summer distribution of submerged aquatic vegetation along the Alabama Coast in 2015.
+Supplemental Information:
+October 10 through 15.
+Photography Date October 10 through 15 
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20151010</begdate>
+          <enddate>20151015</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Submerged Aquatic Vegetation Fall 2015</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.401933</westbc>
+        <eastbc>-87.449668</eastbc>
+        <northbc>30.829179</northbc>
+        <southbc>30.228693</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Submerged Aquatic Vegetation</themekt>
+        <themekey>Vegetation</themekey>
+        <themekey>Submerged</themekey>
+        <themekey>Aquatic</themekey>
+      </theme>
+      <place>
+        <placekt>USA</placekt>
+        <placekey>Alabama</placekey>
+      </place>
+      <place>
+        <placekt>Alabama</placekt>
+        <placekey>Mobile County</placekey>
+        <placekey>Baldwin County</placekey>
+        <placekey>Mobile Bay</placekey>
+        <placekey>Mobile Tensaw Delta</placekey>
+        <placekey>Mississippi Sound</placekey>
+        <placekey>Perdido Bay</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Mobile Bay National Estuary Program </cntorg>
+          <cntper>Roberta Swann</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>118 North Royal Street</address>
+          <city>Mobile</city>
+          <state>Alabama</state>
+          <postal>36602</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(251) 431-6409</cntvoice>
+        <cntemail>rswann@mobilebaynep.com</cntemail>
+        <hours>9:00 a.m. to 4:00 p.m. CST for phone calls.</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Mobile Bay National Estuary Program </cntorg>
+          <cntper>Roberta Swann</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>118 North Royal Street</address>
+          <city>Mobile</city>
+          <state>Alabama</state>
+          <postal>36602</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(251) 431-6409</cntvoice>
+        <cntemail>rswann@mobilebaynep.com</cntemail>
+        <hours>9:00 a.m. to 4:00 p.m. CST for phone calls.</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Digital Aerial Photography: Aerial imagery was acquired using a Z/I Imaging digital mapping camera (DMC). To accurately position each aerial photo center (principal point), the aerial mapping technology used an airborne global positioning system (ABGPS) and inertial measurement unit (IMU). The ABGPS/IMU recorded the position and orientation of the camera platform during all flight missions.  Exact measurements obtained from the ABGPS and IMU provided positional accuracy of the resultant imagery suitable to support generation of ortho imagery.
+Intergraph’s ISAT system for softcopy aerotriangulation was used for photogrammetric production of the ortho imagery.  The orthorectification process relied on the aerial imagery, camera calibration data, aerotriangulation data, and a digital elevation model (DEM).  The procedure was performed in a fully digital workflow environment, using measurements obtained from the ABGPS and IMU to provide accurate exterior orientation of the imagery.  The process included use of the location and coordinate positions of the ABGPS and GPS photo control points as well as a precise camera calibration for the DMC used to capture the images.
+The aerotriangulation process extended horizontal control from relatively few ground survey control points to additional supplemental control points (i.e., pass points).  Common pass points and tie points among overlapping image frames were collected. The final solution was produced using a rigorous simultaneous least squares adjustment on the ABGPS and IMU data, to adjust and verify the positional tolerances of individual images.  The root mean square errors of the ABGPS were X=0.078 m, Y=0.068 m, and Z=0.081 m.  The output for the orientation angles (a measurement of the orientation of one image to another) was X=0.004 m, Y=0.003 m, and Z=0.006 m.
+
+Submerged Aquatic Vegetation Polygons: Two mapping analysts visually reviewed the SAV polygons superimposed on the digital imagery to check completeness and edges, and consulted regarding questionable areas.  The analysts reviewed the attribute classification for each delineated area and made determinations of accuracy of the habitat categories based of the field species and bed density data.  The entire data set was reviewed after completion.
+A quality control assessment was performed to test spatial and thematic accuracy of the completed polygonal data set.  The spatial test was performed to assess the horizontal spatial error of SAV polygon boundaries, based on comparison with actual SAV boundaries in the field.  The thematic test was performed to assess the correctness of habitat attributes, such as SAV presence and species composition.  Independent data sets of field points were used to test the spatial and thematic accuracies.  The accuracy test points were removed from the overall data set prior to producing the SAV polygons. 
+After completion of the polygonal database, 48 locations tagged with GPS as field edge points were imported into ArcGIS and compared with the estimated locations of their corresponding polygons.  Field edge points collected prior to September 15 were used for testing summer polygons, and edge point data collected after September 15 were used for fall polygons.  Polygons were spatially buffered 5 m inside and 5 m outside the estimated bed edge to produce a 10-m-wide zone along the delineated boundaries.  If a test point fell within the 10-m buffer it was considered to meet spatial accuracy requirements.  Of the 48 test points, six fell outside the buffer (12.5%), three each for the summer and fall polygons.  The average spatial error of all 48 test points was 3.17 meters (10.4 feet) from the polygon boundaries. 
+To test thematic accuracy, an error matrix was created using 225 field points, selected from the 2015 field points using a random number generator.  The error matrix compared the actual field data with the predicted polygon classes.  All oligohaline (low-salinity) habitat categories were combined as “Freshwater Mix” for the thematic accuracy test.  Other classes were Shoalgrass, Shoalgrass-Widgeon grass, and No SAV.  The overall classification accuracy was computed as the total number of correct class predictions divided by the total number of cells in the matrix.  The thematic accuracy was determined to be 87%.  Most of the thematic errors consisted of bare areas (No SAV) within patchy SAV polygons, or patchy or sparse SAV that was not delineated due to poor visibility or absence of signatures on the imagery.</attraccr>
+      <qattracc>
+        <attracce>ArcGIS 10.3 software was used to create and maintain topological relationships between features. There are no duplicate features, but coincident lines are maintained between data layers where appropriate. Polygonal features begin and end at the same point, contain no overshoots or undershoots, and contain a single label. Linear features are continuous where appropriate, i.e., dangling arcs are removed if they are not required.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>ArcGIS 10.3 software was used to create and maintain topological relationships between features. There are no duplicate features, but coincident lines are maintainedbetween data layers where appropriate. Polygonal features
+begin and end at the same point, contain no overshoots or undershoots, and contain a single label. Linear features
+are continuous where appropriate, i.e., dangling arcs are removed if they are not required.
+</logic>
+    <posacc>
+      <horizpa>
+        <horizpar>A test was performed to assess the horizontal spatial error of SAV polygon boundaries, based on comparison with actual SAV boundaries in the field.  After completion of the polygonal database, 48 locations tagged with GPS as field edge points were imported into ArcGIS and compared with the estimated locations of their corresponding polygons.  Field edge points collected prior to September 15 were used for testing summer polygons, and edge point data collected after September 15 were used for fall polygons.  Polygons were spatially buffered 5 m inside and 5 m outside the estimated bed edge to produce a 10-m-wide zone along the delineated boundaries.  If a test point fell within the 10-m buffer it was considered to meet spatial accuracy requirements.  Of the 48 test points, six fell outside the buffer (12.5%), three each for the summer and fall polygons.  The average spatial error of all 48 test points was 3.17 meters (10.4 feet) from the polygon boundaries. </horizpar>
+        <qhorizpa>
+          <horizpae>QA/QC location data were collected in the field and used to check the accuracy of the polygons.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>24000</srcscale>
+        <typesrc>None</typesrc>
+        <srccontr>MBNEP Orthophotography provided the ground base for the delineation of the submerged aquatic vegetation in the Mobile Bay area.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Quatum Spatial, Inc. (QSI) of St Petersburg, FL acquired the aerial photography and produced the geo-referenced ortho imagery.  The fall imagery was acquired October 10 through 15. Environmental conditions during the project flights had minimal wind (&gt; 10 mph) and mostly cloudless conditions.  All flights were conducted during hours with sun angles ranging between 35 and 45.
+QSI utilized an Aero Commander 500 aircraft flown at of 15,000 feet during imagery acquisition.  The aerial imagery was acquired using a Z/I Imaging digital mapping camera (DMC).  The DMC was equipped with eight (8) cameras heads, four (4) for panchromatic and one (1) each for red, blue, green and near-infrared.  Imagery was acquired to render a native pixel resolution of 1 meter for the study area.  Imagery frames were formatted for 60% endlap and 30% sidelap. 
+To accurately position each aerial photo center (principal point), the aerial mapping technology used an airborne global positioning system (ABGPS) and inertial measurement unit (IMU).  The computerized flight-management system used ABGPS-supported aircraft navigation, interfaced with flight control software.  Flight line start and stop points were processed by the onboard navigation system.  
+During flight missions the ABGPS/IMU recorded the position and orientation of the camera platform.  An Applanix IMU system ensured that tip, tilt, and swing of the camera was less than 3 degrees for each frame.  Resolution loss due to blurring was avoided by a forward image motion compensation system.  Image motion did not exceed 0.005 cm.  The IMU system measured the position of the camera perspective center and orientation angles of each photograph at the midpoint of exposure, to an accuracy of 5-10 cm and 20-30 arc seconds, respectively.  
+ABGPS coordinates were automatically collected in-flight for the principal point for each photographic frame.  Dual-frequency GPS observation data were collected at a one second epoch.  Additionally, inertial data were collected at a rate of 0.005 seconds.  The ABGPS and inertial data were post-processed using Applanix MMS version 5.2 software, to provide accurate positional (x, y, and z) and rotation (omega, phi, and kappa) data of the camera.  The three dimensional position of each exposure was determined from the ABGPS data, while the three-dimensional rotation of each exposure was determined from the inertial data.
+Intergraph’s ISAT system for softcopy aerotriangulation was used for photogrammetric production of the ortho imagery.  The orthorectification process relied on the aerial imagery, camera calibration data, aerotriangulation data, and a digital elevation model (DEM).  The procedure was performed in a fully digital workflow environment, using measurements obtained from the ABGPS and IMU to provide accurate exterior orientation of the imagery.  The process included use of the location and coordinate positions of the ABGPS and GPS photo control points as well as a precise camera calibration for the DMC used to capture the images.
+The aerotriangulation process extended horizontal control from relatively few ground survey control points to additional supplemental control points (i.e., pass points).  Common pass points and tie points among overlapping image frames were collected.  Any large residuals were double checked and corrected, or replaced if necessary.  Bundle adjustments were run with ground control and ABGPS separately, and then combined using different weighting units.  Final adjustments assured that all measurements were in balance with each other and properly represented actual conditions. 
+The final solution was produced using a rigorous simultaneous least squares adjustment on the ABGPS and IMU data, to adjust and verify the positional tolerances of individual images.  The root mean square errors of the ABGPS were X=0.078 m, Y=0.068 m, and Z=0.081 m.  The output for the orientation angles (a measurement of the orientation of one image to another) was X=0.004 m, Y=0.003 m, and Z=0.006 m
+Digital orthophoto frames were created using National Elevation Dataset (NED) Digital Elevation Models (DEM), which were combined with the processed raw imagery and aerotriangulation data.  Intergraph’s OrthoPro software was used to produce the orthophotos. A final color balancing was performed across the entire dataset.  A total of 1,068 individual ortho frames were produced, along with a mosaic in MrSID (.sid) format.  These products are projected to North American Datum of 1983, Universal Transverse Mercator (UTM) Zone Number 16 North.
+</procdesc>
+        <procdate>20150601</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quatum Spatial, Inc. of St Petersburg, FL</cntorg>
+              <cntper>Orthophotography</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St. North Suite 200</address>
+              <city>St Petersburg</city>
+              <state>Florida</state>
+              <postal>3371</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1182</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 16N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-87.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MBNEP_SAV_Fall_ 2015</enttypl>
+        <enttypd>ArcGIS 10.3 generated</enttypd>
+        <enttypds>ArcGIS 10.3</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>habit</attrlabl>
+        <attrdef>Type of SAV patch, generated using GPS</attrdef>
+        <attrdefs>GPS and in-field identification</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Habitat types and coverage</edomv>
+            <edomvd>coverage</edomvd>
+            <edomvds>In-field observations, orthophoto assessment</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Species</attrlabl>
+        <attrdef>SAV species observed during field verification. 
+Unique Two Letter Codes for SAV Taxa.
+SPECIES        CODE
+Here is the species list and codes for 2015:
+
+Cabomba caroliniana CC
+Ceratophyllum demersum CD
+Eleocharis baldwinii EB
+Heteranthera dubia HD 
+Hydrilla verticillata HV
+Halodule wrightii HW
+Luziola fluitans LF
+Myriophyllum aquaticum MA
+Myriophyllum heterophyllum MH
+Myriophyllum spicatum MS
+Najas guadelupensis NG
+Nuphar ulvacea NU
+Potamogeton crispus PC
+Potamogeton diversifolius PD
+Potamogeton nodosus PN
+Potamogeton pusillus PP
+Ruppia maritima RM
+Sparganium americanum SA
+Stuckenia pectinata SP
+Thalassia testudinum TT
+Utricularia foliosa UF
+Utricularia inflata UI
+Utricularia sp. UT
+Vallisneria neotropicalis VN
+Zannichellia palustris ZP
+</attrdef>
+        <attrdefs>Each species was assigned a unique two letter code based on the initials of its genus and specific epithet.</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>SAV code set - listed in definition</codesetn>
+            <codesets>Mobile Bay National Estuary Program</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Category</attrlabl>
+        <attrdef>Surveys for beds of submerged aquatic vegetation (SAV) were conducted on the Alabama Gulf Coast during the summer and fall months of 2015 to provide SAV distributional data in Mobile and Baldwin Counties. Areas covered within the two-county region include Mobile Bay, the lower Mobile-Tensaw Delta, and adjoining waters along the coast of Alabama. A total of 1,437 field points was visited in the field to verify the presence of SAV and to determine species composition. Twenty-six vascular plant species representing 14 taxonomic families were recorded during the survey. Species categories are based on a visual assessment of the dominant taxa occurring at field point locations.
+
+SPECIES-CODE
+
+Here is the species list and codes for 2015:
+
+Cabomba caroliniana CC
+Ceratophyllum demersum CD
+Eleocharis baldwinii EB
+Heteranthera dubia HD 
+Hydrilla verticillata HV
+Halodule wrightii HW
+Luziola fluitans LF
+Myriophyllum aquaticum MA
+Myriophyllum heterophyllum MH
+Myriophyllum spicatum MS
+Najas guadelupensis NG
+Nuphar ulvacea NU
+Potamogeton crispus PC
+Potamogeton diversifolius PD
+Potamogeton nodosus PN
+Potamogeton pusillus PP
+Ruppia maritima RM
+Sparganium americanum SA
+Stuckenia pectinata SP
+Thalassia testudinum TT
+Utricularia foliosa UF
+Utricularia inflata UI
+Utricularia sp. UT
+Vallisneria neotropicalis VN
+Zannichellia palustris ZP</attrdef>
+        <attrdefs>Each species was assigned a unique two letter code based on the initials of its genus and specific epithet.</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>SAV code set - listed in definition</codesetn>
+            <codesets>Mobile Bay National Estuary Program</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ground_tes</attrlabl>
+        <attrdef>Attribute column states whether or not a groundtruth point was taken in the SAV polygon</attrdef>
+        <attrdefs>Field notes</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Ground truth</edomv>
+            <edomvd>Yes or No</edomvd>
+            <edomvds>Field notes</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Perimeter</attrlabl>
+        <attrdef>The perimeter of the polygon</attrdef>
+        <attrdefs>ArcGIS 10.3</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Perimeter</edomv>
+            <edomvd>meters</edomvd>
+            <edomvds>ArcGIS 10.3</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+        <attrdef>The area of the SAV polygons, generated using ArcGIS 10.3</attrdef>
+        <attrdefs>ArcGIS10.3</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Area</edomv>
+            <edomvd>Area of selected SAV polygons</edomvd>
+            <edomvds>Calculated using ArcGIS 10.3</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>The acreage of the SAV polygons, generaged using ArcGIS 10.3</attrdef>
+        <attrdefs>ArcGIS 10.3</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Acres</edomv>
+            <edomvd>Acres of selected SAV polygon</edomvd>
+            <edomvds>Calculated in ArcGIS 10.3</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20180918</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Mobile Bay National Estuary Program </cntorg>
+          <cntper>Roberta Swann</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>118 North Royal Street</address>
+          <city>Mobile</city>
+          <state>Alabama</state>
+          <postal>36602</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(251) 431-6409</cntvoice>
+        <cntemail>rswann@mobilebaynep.com</cntemail>
+        <hours>9:00 a.m. to 4:00 p.m. CST for phone calls.</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>Access Constraints:It is strongly recommended that this data be acquired directly from the distributor described above and not indirectly through other sources which may have changed the data in some way. The distributor makes no claims as to the data's suitability for other purposes.</metuc>
+  </metainfo>
+</metadata>
