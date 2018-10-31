@@ -38,7 +38,8 @@
 			   "includeAllLayers": true
 			},
 			{
-			   "name": "2016 Habitats"
+			   "name": "2016 Habitats",
+			   "includeAllLayers": true
 			},
 			{
 			   "name": "Mobile Bay SAV & Oyster Reefs",
@@ -55,6 +56,9 @@
 			{
 			   "name": "Proposed Watershed Projects",
 			   "includeAllLayers": true
+			},
+			{
+				"name": "Alabama Funded Projects"
 			},
 			{
 			   "name": "Anthropogenic Factors",
