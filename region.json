@@ -3,17 +3,16 @@
 	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
 	"titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
     "titleDetail": { "text": "Alabama Natural Resource Assessment ToolFreshwater", "url": "http://freshwaternetwork.org/waternews/alabama.html" },
-    "headerLinks": [
-	{ "text": "GO TO", "url": "#", "items": [
-		{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
-		{ "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
-		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" }
-	  ]
-	},
-    { "text": "The Nature Conservancy", "url": "http://nature.org" },
-    { "text": "Partners", "url": "partners.html", "popup": true },
-    { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
-    { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
+     "headerLinks": [
+        { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
+        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],    
+    "regionLinks": [    
+        { "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
+        { "text": "Mississippi Region", "url": "http://maps.freshwaternetwork.org/mississippi/" },
+        { "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
+        { "text": "Wisconsin Region", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
+        { "text": "Chesapeake Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
         -88.9,
@@ -32,18 +31,28 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
-        "measure"
+        "regional-planning",
+        "feature-compare",
+        "zoom_to",
+        "measure",
+        "legend_display",
+        "full_extent"
     ],
-    
-    "identifyBlacklist":["OBJECTID", "Shape"],
-    
+    "print": {
+        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+        "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+        "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
+    },
     "colors": {
         "primary": "#457545",
-        "secondary": "#81b94d"
+        "secondary": "#81b94d",
+        "tertiary": "#333333",
+        "active": "#6BCA1E"
     },
-    "print": {
-        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
+    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "identifyEnabled": false,
+    "launchpad": {
+        "html":true
     }
 }
 

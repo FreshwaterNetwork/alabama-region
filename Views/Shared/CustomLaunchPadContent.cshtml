@@ -1,0 +1,58 @@
+﻿<style>
+	.ls-app-wraps{
+		display:flex;
+	}
+	.ls-app-wraps h4{
+		margin-left:10px; margin-top:10px;
+	}
+	.ls-app-wraps img{
+		height:37px;
+	}
+	.ls-app-descs{
+		margin-left:5px;
+	}
+	.ls-app-button{
+		text-align:left; width:100%;
+	}
+	.ls-app-button span{
+		font-weight:bold; color:#5E94B6;
+	} 
+	.ls-hide-button{
+		display:none;
+	}
+</style>
+
+<h2>Alabama</h2>
+<div>
+    Freshwater Network.org is a decision support tool that incorporates the best available science and local data to enable communities and conservation practitioners to identify nature-based solutions for enhancing resilience and reducing risk where possible. For additional project information, visit the <a href="http://freshwaternetwork.org/" target="_blank">Freshwater Network home page</a>.
+</div>
+
+<h3>Get Started</h3>
+
+<div class="button ls-app-button">	
+	<div class="ls-app-wraps">
+		<img src="img/regional-planning.png">
+		<h4 class="color-primary">Map Layers</h4>
+	</div>
+	<div class="ls-app-descs">
+		Description of the Map Layers app.
+	</div>
+</div>	
+<button class="button launch-plugin ls-hide-button" data-plugin-name="regional-planning"></button>
+
+<div class="button ls-app-button">	
+	<div class="ls-app-wraps">
+		<img src="img/feature-compare.png">
+		<h4 class="color-primary">Feature Compare</h4>
+	</div>
+	<div class="ls-app-descs">
+		Description of the Watershed Compare app.
+	</div>
+</div>	
+<button class="button launch-plugin ls-hide-button" data-plugin-name="feature_compare"></button>
+
+<script>
+	$(".ls-app-button").click(function(c){
+		$(c.currentTarget).next().trigger("click")
+	})
+</script>
