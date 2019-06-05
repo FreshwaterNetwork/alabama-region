@@ -17,9 +17,53 @@
 			   "includeAllLayers": true
 			},
 			{
-               "name": "EPA Healthy Watersheds Assessments",
+               "name": "Hydrography Flowlines"
+			},
+			{
+               "name": "Protected Lands",
 			   "includeAllLayers": true
-			}
+			},
+			{
+               "name": "NWI Wetlands (~2009)"
+			},
+			{
+               "name": "2001/2002 Habitats"
+			},
+			{
+               "name": "2005 Habitats",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "2006 Plan Targets",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "2016 Habitats",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Mobile Bay SAV & Oyster Reefs",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "2018 Strategies",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "2018 Criteria for Objectives",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Proposed Watershed Projects",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Alabama Funded Projects"
+			},
+			{
+               "name": "Anthropogenic Factors",
+			   "includeAllLayers": true
+			},
 		]	
 	}
 ]
