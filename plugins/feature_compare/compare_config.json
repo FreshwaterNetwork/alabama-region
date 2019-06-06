@@ -10,12 +10,12 @@
             "mapDisplayAttribute": "NAME",
             "attrs": [
                 {"name": "NAME", "format": "text", "maxLength": 120},
-                {"name": "HUC12GISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0.1},
-                {"name": "NonRestorableAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0.1},
-				{"name": "PreservationConsAreaAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0.1},
-				{"name": "RestorationAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0.1},
-				{"name": "ReservationAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0.1},
-				{"name": "NonTargetAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0.1}
+                {"name": "HUC12GISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0.1},
+                {"name": "NonRestorableAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0.1},
+				{"name": "PreservationConsAreaAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0.1},
+				{"name": "RestorationAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0.1},
+				{"name": "ReservationAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0.1},
+				{"name": "NonTargetAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0.1}
                 
             ]
         },
@@ -25,12 +25,12 @@
             "mapDisplayAttribute": "NAME",
             "attrs": [
                 {"name": "NAME", "format": "text", "maxLength": 120},
-                {"name": "ComplexGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-                {"name": "NonRestorableAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "PreservationConsAreaAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "RestorationAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "ReservationAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "NonTargetAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0}
+                {"name": "ComplexGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+                {"name": "NonRestorableAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "PreservationConsAreaAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "RestorationAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "ReservationAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "NonTargetAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0}
                 
             ]
         },
@@ -40,12 +40,12 @@
             "mapDisplayAttribute": "NAME",
             "attrs": [
                 {"name": "NAME", "format": "text", "maxLength": 120},
-                {"name": "HUC8GISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-                {"name": "NonRestorableAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "PreservationConsAreaAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "RestorationAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "ReservationAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "NonTargetAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0}
+                {"name": "HUC8GISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+                {"name": "NonRestorableAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "PreservationConsAreaAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "RestorationAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "ReservationAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "NonTargetAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0}
                 
             ]
         },
@@ -55,12 +55,12 @@
             "mapDisplayAttribute": "NAME",
             "attrs": [
                 {"name": "NAME", "format": "text", "maxLength": 120},
-                {"name": "CountyAreaAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-                {"name": "NonRestorableAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "PreservationConsAreaAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "RestorationAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "ReservationAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0},
-				{"name": "NonTargetAreasGISAcres", "format": "number", "digits": 0, "unit": " acres", "nonZeroCutoff": 0}
+                {"name": "CountyAreaAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+                {"name": "NonRestorableAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "PreservationConsAreaAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "RestorationAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "ReservationAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0},
+				{"name": "NonTargetAreasGISAcres", "format": "number", "digits": 0, "unit": " ac.", "nonZeroCutoff": 0}
         
             ]
         }
