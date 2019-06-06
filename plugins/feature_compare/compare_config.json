@@ -4,37 +4,63 @@
     "pluginDesc": "Compare attributes of up to three watersheds",
     "featureName": "Watershed",
     "layers": [
+		{
+            "name": "HUC-12 Watersheds",
+            "url": "https://cirrus.tnc.org/arcgis/rest/services/FN_Alabama/AL_Map_Layers_2/MapServer/2",
+            "mapDisplayAttribute": "Name",
+            "attrs": [
+                {"name": "Name", "format": "text", "maxLength": 120},
+                {"name": "Acres", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+                {"name": "Non-Restorable", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Preservation/Conservation", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Restoration", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Reservation", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Non-Target Areas", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0}
+                
+            ]
+        },
         {
-            "name": "HUC 8",
-            "url": "https://cirrus.tnc.org/arcgis/rest/services/FN_Alabama/AL_Map_Layers/MapServer/1",
+            "name": "Watershed Complexes",
+            "url": "https://cirrus.tnc.org/arcgis/rest/services/FN_Alabama/AL_Map_Layers_2/MapServer/4",
             "mapDisplayAttribute": "Name",
             "attrs": [
-                {"name": "Name", "format": "text", "maxLength": 32},
-                {"name": "HUC8", "format": "text", "maxLength": 8},
-                {"name": "AreaAcres", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0.0001},
-                {"name": "States", "format": "text", "maxLength": 11}
+                {"name": "Name", "format": "text", "maxLength": 120},
+                {"name": "Acres", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+                {"name": "Non-Restorable", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Preservation/Conservation", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Restoration", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Reservation", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Non-Target Areas", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0}
                 
             ]
         },
 		{
-            "name": "HUC 12",
-            "url": "https://cirrus.tnc.org/arcgis/rest/services/FN_Alabama/AL_Map_Layers/MapServer/2",
+            "name": "Non-Tidally Influenced HUC-8 Watersheds",
+            "url": "https://cirrus.tnc.org/arcgis/rest/services/FN_Alabama/AL_Map_Layers_2/MapServer/3",
             "mapDisplayAttribute": "Name",
             "attrs": [
-                {"name": "Name", "format": "text", "maxLength": 54},
-                {"name": "HUC12", "format": "text", "maxLength": 12},
-                {"name": "AreaAcres", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0.0001},
-                {"name": "States", "format": "text", "maxLength": 11}
+                {"name": "Name", "format": "text", "maxLength": 120},
+                {"name": "Acres", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+                {"name": "Non-Restorable", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Preservation/Conservation", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Restoration", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Reservation", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Non-Target Areas", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0}
                 
             ]
         },
 		{
-            "name": "Watershed Health",
-            "url": "https://cirrus.tnc.org/arcgis/rest/services/FN_Alabama/AL_Map_Layers/MapServer/7",
-            "mapDisplayAttribute": "FEATUREID",
+            "name": "Mobile/Baldwin Counties Water Jurisdiction",
+            "url": "https://cirrus.tnc.org/arcgis/rest/services/FN_Alabama/AL_Map_Layers_2/MapServer/6",
+            "mapDisplayAttribute": "Name",
             "attrs": [
-                {"name": "WatershedHealth", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.1},
-                {"name": "WatershedVulnerability", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.1}
+                {"name": "Name", "format": "text", "maxLength": 120},
+                {"name": "Acres", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+                {"name": "Non-Restorable", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Preservation/Conservation", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Restoration", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Reservation", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0},
+				{"name": "Non-Target Areas", "format": "number", "digits": 7, "unit": " acres", "nonZeroCutoff": 0}
         
             ]
         }
