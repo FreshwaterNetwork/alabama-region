@@ -2,7 +2,7 @@
 	"googleAnalyticsPropertyId": "28810260-22",
 	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
 	"titleMain": { "text": "Freshwater Network", "url": "https://freshwaternetwork.org" },
-    "titleDetail": { "text": "Alabama Natural Resource Assessment ToolFreshwater", "url": "https://freshwaternetwork.org/waternews/alabama.html" },
+    "titleDetail": { "text": "Coastal Alabama Restoration Tool (CART)", "url": "https://freshwaternetwork.org/waternews/alabama.html" },
      "headerLinks": [
         { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
         { "text": "Legal Disclosure", "url": "https://coastalresilience.org/terms-of-use/" }
