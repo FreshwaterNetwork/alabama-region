@@ -7,13 +7,13 @@
         { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
         { "text": "Legal Disclosure", "url": "https://coastalresilience.org/terms-of-use/" }
     ],    
-    "regionLinks": [    
-        { "text": "Louisiana", "url": "https://maps.freshwaternetwork.org/louisiana/" },
+    "regionLinks": [
+		{ "text": "Chesapeake Region", "url": "https://maps.freshwaternetwork.org/chesapeake/" },
 		{ "text": "Florida", "url": "https://maps.freshwaternetwork.org/florida/" },
+		{ "text": "Louisiana", "url": "https://maps.freshwaternetwork.org/louisiana/" },
         { "text": "Mississippi Region", "url": "https://maps.freshwaternetwork.org/mississippi/" },
         { "text": "Northeast Region", "url": "https://maps.freshwaternetwork.org/northeast/" },
-        { "text": "Wisconsin Region", "url": "https://maps.freshwaternetwork.org/wisconsin/" },
-        { "text": "Chesapeake Region", "url": "https://maps.freshwaternetwork.org/chesapeake/" }
+        { "text": "Wisconsin Region", "url": "https://maps.freshwaternetwork.org/wisconsin/" }
     ],
     "initialExtent": [
         -88.9,
