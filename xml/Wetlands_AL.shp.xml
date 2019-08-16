@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
 <metadata><idinfo><citation><citeinfo><origin>U.S. Fish and Wildlife Service</origin><pubdate>October 1, 2010</pubdate><title Sync="TRUE">WETDBA.CONUS_wet_poly</title><geoform Sync="TRUE">vector digital data</geoform><serinfo><sername>Classification of Wetlands and Deepwater Habitats of the United States.  U.S. Department of the Interior, Fish and Wildlife Service, Washington, DC.  FWS/OBS-79/31.</sername></serinfo><pubinfo><pubplace>Washington, D.C.</pubplace><publish>U.S. Fish and Wildlife Service, Division of Habitat and Resouce Conservation</publish></pubinfo><onlink>http://www.fws.gov/wetlands/</onlink><ftname Sync="TRUE">WETDBA.CONUS_wet_poly</ftname></citeinfo></citation><descript><abstract>
 This data set represents the extent, approximate location and type of wetlands and deepwater habitats in the conterminous United States.  These data delineate the areal extent of wetlands and surface waters as defined by Cowardin et al. (1979).  
 
